@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ButtonSubmit = styled.a `
+export const ButtonSubmit = styled.button `
     background-color: #fff;
     border: 2px solid #ddd;
     font-family: 'Roboto Condensed', sans-serif;
@@ -53,7 +53,7 @@ export const FormPet = styled.form`
     }
     div {
         margin: 2rem 0px;
-        input {
+        .input-pet {
             letter-spacing: 1.8px;
             font-size: 14.5px;
             font-family: 'Roboto Condensed', sans-serif;
